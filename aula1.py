@@ -63,7 +63,7 @@ pausar(5)
 
 
 tabela = pandas.read_csv(
-    r"C:\Users\chris\Downloads\Compras.csv", sep=";", thousands='.', decimal=',')
+    r"compras.csv", sep=";", thousands='.', decimal=',')
 print(tabela)
 
 total = tabela["ValorFinal"].sum()
@@ -76,7 +76,8 @@ print("Quantidade total: ", qte)
 print("media por produto: ", media)
 
 duasTeclas("ctrl", "t")
-escreva("https://mail.google.com/mail/u/1/#inbox")
+link2 = "https://mail.google.com/mail/u/1/#inbox"
+escreva(link2)
 aperte("enter")
 pausar(5)
 clique(83, 168)
