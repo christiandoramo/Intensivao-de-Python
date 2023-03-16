@@ -1,9 +1,13 @@
+# Automação
+# Importar Bases de Dados
+# Controlar Mouse e Teclado
+#  Enviar Email Automático
+
+
 import pyautogui
 import pyperclip
 import time
 import pandas
-import numpy
-import openpyxl
 
 link1 = "https://pages.hashtagtreinamentos.com/aula1-intensivao-sistema"
 

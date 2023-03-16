@@ -1,3 +1,9 @@
+# Análise de Dados
+# Tratamento de Dados
+# Gráficos em Pyhon
+# Tabelas (DataFrames)
+
+
 import pandas as pd
 import plotly.express as px
 # para rodar o grafico.show foi necessario usar o run in interactive window
