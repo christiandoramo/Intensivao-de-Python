@@ -1,0 +1,21 @@
+module example_module(
+  input a,
+  input b,
+  output y
+);
+
+  wire temp;
+
+  // Atribui o resultado da operação lógica "a AND b" à "temp"
+  assign temp = a & b;
+
+  // Verifica se "temp" é igual a 1
+  if (temp == 1) begin
+    // Se sim, atribui 1 a "y"
+    assign y = 1;
+  end else begin
+    // Se não, atribui 0 a "y"
+    assign y = 0;
+  end
+
+endmodule

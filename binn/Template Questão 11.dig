@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-980" y="-660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-980" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-980" y="-540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-980" y="-480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Monitor Bateria</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>B3 B2 B1 B0     Alarme
+0 0 0 0 	1
+0 0 0 1 	1
+0 0 1 0 	1
+0 0 1 1 	1
+0 1 0 0 	1
+0 1 0 1 	1
+0 1 1 0 	1
+0 1 1 1 	1
+1 0 0 0 	1
+1 0 0 1 	1
+1 0 1 0 	0
+1 0 1 1  	0
+1 1 0 0 	0
+1 1 0 1 	0
+1 1 1 0 	0
+1 1 1 1 	1
+
+</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="-880" y="-800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Alarme</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-340" y="-540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>B3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-960" y="-660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>B2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-960" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>B1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-960" y="-540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>B0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-960" y="-480"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-980" y="-660"/>
+      <p2 x="-960" y="-660"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-600"/>
+      <p2 x="-960" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-540"/>
+      <p2 x="-960" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-480"/>
+      <p2 x="-960" y="-480"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
